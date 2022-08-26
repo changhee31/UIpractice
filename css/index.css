@@ -1,0 +1,225 @@
+ .article-title {
+    width: 100%;
+}
+article {
+    width: 80%;
+    margin: 0 auto;
+}
+.aniwrap {
+    width: 70%;
+    margin: 100px auto;
+    padding-left: 80px;
+}
+/*animation1*/
+.aniwrap{ 
+    display: flex;
+}
+.animation_canvas {
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+    display: inline-block;
+}
+.slider_panel {
+    width: 4200px;
+    position: relative;
+}
+.slider_image {
+    width: 600px;
+    height: 400px;
+    float: left;
+    border-radius: 10px 0 0 10px;
+}
+.left_right_control_panel > img {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.animation_canvas .left_control {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    cursor: pointer;
+}
+.animation_canvas .right_control {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    cursor: pointer;
+}
+/*animation1*/
+/*animation2*/
+.animation_canvas2 {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 20px;
+}
+.slider_panel2 {
+    width: 1500px;
+    position: relative;
+}
+.slider_image2 {
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 0 10px 10px 0;
+}
+.animation_canvas2 > .left_right_control_panel2 > img {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.animation_canvas2 .left_control2 {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    cursor: pointer;
+}
+.animation_canvas2 .right_control2 {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    cursor: pointer;
+}
+/*animation2*/
+/*newArrival*/
+.newArrival h3, .newArrival p {
+    text-align: center;
+}
+.newArrival {
+    position: relative;
+    margin-top: 150px;
+    width: 80%;
+}
+.article-title{
+    display: flex;
+    width: 100%;
+}
+.line {
+    border: 1px solid #000;
+    width: 43%;
+    height: 0.1px;
+    margin-top: 15px;
+}
+.ranking .line {
+    width: 45%;
+}
+.bestreview .line {
+    width: 46%;
+}
+.article-title > h3 {
+    padding-left: 5px;
+}
+.arrImg{
+    display: inline-block;
+    position: relative;
+    width: 18%;
+    padding: 50px;
+}
+.boxImg {
+    width: 100%;
+    border-radius: 10px;
+}
+.hover-content{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 25%; 
+    text-align: center; 
+    line-height: 3;  
+}
+/*newArrival*/
+/*membership*/
+.memberShip {
+    background-image: url("../images/bckimg.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 140px 0;
+    margin-bottom: 80px;
+    background-color: #fafafa;
+    color: #fff;
+    height: 80px;
+    margin-top: 150px;
+    width: 100%;
+}
+.memberShip > p {
+    margin-bottom: 50px;
+}
+.memberShip > a {
+    background-color: #f6f6f6;
+    width: 30px;
+    height: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: bold;
+}
+/*membership*/
+/*ranking*/
+.ranking {
+    height: 550px;
+    width: 80%;
+    margin-top: 150px;
+}
+.ranking img {
+    width: 490px;
+    height: 277px;
+}
+.ranking-index {
+    position: relative;
+}
+.rank-ul {
+    display: flex;
+}
+.ranking-area {
+    margin-top: 50px;
+    position: relative;
+    margin-left: 120px;
+}
+.ranking-area > div {
+    position: relative;
+}
+.ranking-area h3 {
+    float: left;
+    font-size: 1em;
+    color: #7a7a7a;
+    border: 1px solid #fff;
+    margin-left: 20px;
+}
+.ranking-area h3 a {
+    display: inline-block;
+    padding: 6px 15px;
+}
+.ranking-area > div:target h3 a {
+    color: #ff4911;
+    border: 1px solid #ff6738;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0 0;
+}
+.ranking-area li {
+    margin-left: 20px;
+}
+.ranking-area ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #fff;
+}
+#Branking {
+    z-index: 10;
+}
+.ranking-area > div:target {
+    z-index: 10;
+}
+.ranking-area img {
+    width: 230px;
+    height: 227px;
+}

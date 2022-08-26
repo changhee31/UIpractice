@@ -1,0 +1,158 @@
+/*폰트*/
+@font-face {
+    font-family: 'NanumSquareRoundR';
+    src: url(../fonts/NanumSquareRoundR.woff);
+}
+@font-face {
+    font-family: 'SCDream5';
+    src: url(../fonts/SCDream5.woff);
+}
+@font-face {
+    font-family: 'NotoSansKR-Medium';
+    src: url(../fonts/NotoSansKR-Medium.woff);
+}
+h1, h2, h3, h4 {
+    font-family: 'SCDream5';
+}
+body {
+    font-family: 'NanumSquareRoundR';
+}
+footer {
+    font-family: 'NotoSansKR-Medium';
+}
+/*폰트*/
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+/*header*/
+.logoimg {
+    width: 200px;
+    height: 90px;
+    margin: 50px 0 0 80px;
+}
+.submenu {
+    float: right;
+    margin-right: 50px;
+}
+.submenu li{
+    float: left;
+    margin: 20px 30px 0 0;
+}
+/*header*/
+/*소메뉴*/
+.sMenu {
+    height: 50px;
+    position: relative;
+}
+.sMenu img {
+    width: 35px;
+    height: 35px;
+}
+.H-img {
+    width: 38px;
+    height: 38px;
+}
+.sMenu > ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+}
+.sMenu li {
+    float: left;
+    margin-right: 30px;
+}
+/*소메뉴*/
+/*메인메뉴*/
+.mainMenu {
+    width: 100%;
+    height: 50px;
+}
+.mainMenu2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.group {
+    margin: 0 20px;
+}
+.group > a{
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    font-weight: 700;
+}
+.group > a:hover {
+    border-bottom: 2px solid #ccc;
+}
+.menu1 {
+    display: none;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 100;
+    font-size: 0.7em;
+}
+.menu1 > li {
+    line-height: 25px;
+    z-index: 100;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+/*메인메뉴*/
+
+/*footer*/
+footer {
+    background-color: antiquewhite;
+}
+.footer1, .footer2 {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-size: 0.6875em;
+}
+.footer1 {
+    margin-top: 10px;
+    height: 50px;
+}
+.footer1 > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.footerline {
+    border-top: 2px solid #ccc;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+}
+.footer2 > ul > li {
+    font-size: 0.8em;
+}
+.bnm {
+    font-size: 0.6em;
+}
+.C-us {
+    display: flex;
+}
+.C-us > li{
+    padding-left: 5px;
+}
+.C-us > li:first-child {
+    padding: 0;
+}

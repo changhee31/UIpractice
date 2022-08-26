@@ -1,0 +1,110 @@
+@font-face{
+    font-family: 'NanumSquareRoundR';
+    src: url('../fonts/NanumSquareRoundR.woff');
+}
+body{
+    font-family: 'NanumSquareRoundR';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+a:visited {
+    color: #e0e0e0;
+}
+li {
+    list-style: none;
+}
+/*header*/
+header {
+    width: 100%;
+    height: 300px;
+    background: url(../images/visual2.jpg) no-repeat center;
+    background-size: cover;
+}
+nav {
+    height: 50px;
+}
+nav > ul {
+    width: 100%;
+}
+nav > ul > li {
+    float: left;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
+/*header*/
+/*section*/
+section {
+    margin-top: 20px;
+}
+.photo img {
+    width: 100%;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 1.5em;
+}
+#offline .title h1 {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1em ;
+}
+p {
+    font-size: 1em;
+    line-height: 2.5;
+}
+li {
+    font-size: 1em;
+    line-height: 2;
+}
+.price {
+    text-align: right;
+}
+.photo {
+    margin-bottom: 10px;
+}
+#offline > .photo > img {
+    width: 49%;
+}
+#offline > .photo > img:first-child {
+    margin-right: 10px;
+}
+#offline > .photo {
+    display: flex;
+}
+/*section*/
+/*footer*/
+footer {
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+}
+footer ul {
+    margin-bottom: 10px;
+}
+footer li {
+    float: left;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+}
+/*footer*/

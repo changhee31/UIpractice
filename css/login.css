@@ -1,0 +1,112 @@
+@charset "utf-8";
+#contents, .login-wrapper {
+    position: relative;
+}
+.login-wrapper {
+    width: 60%;
+    height: 800px;
+    padding: 0 16px 200px;
+    margin: 10px auto;
+    background-image: url("../images/loginBackG.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    background-position: center center;
+    border-style: none;
+    border-radius: 5px;
+}
+/*contents 시작*/
+.loginContents {
+    padding-top: 150px;
+}
+.loginContents {
+    display: flex;
+    flex-direction: column;
+}
+.loginSec form {
+    border-style: none;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+fieldset {
+    border-style: none;
+}
+.flosId, .flosPw, .btn {
+    width: 468px;
+    height: 70px;
+}
+.loginButton {
+    margin-top: 50px;
+    border-style: none;
+    cursor: pointer;
+}
+.btn {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #ccc;
+}
+.btn1 {
+    width: 472px;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.flosId, .flosPw{
+    padding-top: 20px;
+    opacity: 0.9;
+}
+.etcButton > img{
+    width: 30px;
+    height: 30px;
+}
+.loginMenu {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.loginMenu > a {
+    color: #fff;
+}
+.loginMenu > a::before {
+    content: "|";
+    padding-right: 10px
+}
+.loginMenu > a:nth-of-type(1)::before {
+    content: "";
+}
+.loginEtc {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.etcButton{
+    width: 468px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.loginEtc > ul >li:first-child {
+    background-color: #FFE800;
+}
+.loginEtc > ul >li:nth-of-type(2) {
+    background-color: #435E99;
+}
+.loginEtc > ul >li:last-child {
+    background-color: #1EC800;
+}
+.etcButton img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+/*contents 종료*/
